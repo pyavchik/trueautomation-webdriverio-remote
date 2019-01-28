@@ -29,7 +29,7 @@ environment/chromedriver
 Then, you can run the default test:
 
 ```bash
-mvn clean test -Dwebdriver=chrome
+npm test
 ```
 
 ### Geckodriver
@@ -46,5 +46,6 @@ environment/geckodriver
 Then, you can run the default test:
 
 ```bash
-mvn clean test -Dwebdriver=gecko
+npm test
+
 ```
