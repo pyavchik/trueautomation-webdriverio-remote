@@ -6,6 +6,7 @@ exports.config = {
     maxInstances: 1,
     capabilities: [{
         maxInstances: 1,
+
     }],
     logLevel: 'error',
     deprecationWarnings: true,
@@ -19,10 +20,9 @@ exports.config = {
         ui: 'bdd',
         timeout: 60000
     },
-
     services: ['trueautomation'],
     path: '/',
     remote: true,
-    port: 9515
-
+    //port: 4444 // geckodriver firefox
+    port: 9515 // chromedriver chrome
 }
